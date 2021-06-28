@@ -6,7 +6,7 @@ import PicksPage from './Components/PicksPage';
 import ResultsPage from './Components/ResultsPage';
 import WeeksDropDown from './Components/WeeksDropDown';
 import LoginForm from './Components/LoginForm'
-import firebase from 'firebase/app';
+import firebase from 'Firebase;
 import "firebase/auth";
 
 import './App.css';
