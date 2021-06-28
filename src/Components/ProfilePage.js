@@ -1,7 +1,7 @@
   
 import React, { Component } from 'react';
 
-import firebase from './Firebase';
+import firebase from 'Firebase';
 
 class ProfilePage extends Component {
   state = {
