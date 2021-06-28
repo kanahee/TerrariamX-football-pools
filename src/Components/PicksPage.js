@@ -4,7 +4,7 @@ import 'moment-timezone';
 
 import GameCard from './GameCard';
 import PickTracker from './PickTracker';
-import firebase from './Firebase';
+import firebase from 'Firebase';
 
 class PicksPage extends Component {
   state = {

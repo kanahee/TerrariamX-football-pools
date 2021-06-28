@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import firebase from './Firebase';
+import firebase from 'Firebase';
 import './ResultsTable.css';
 
 /* Component used for rendering weekly results, when the user
