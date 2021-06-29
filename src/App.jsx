@@ -9,6 +9,7 @@ import WeeksDropDown from './Components/WeeksDropDown';
 import LoginForm from './Components/LoginForm'
 
 import 'firebase/auth';
+import 'firebase/database';
 
 import './App.css';
 import 'react-dropdown/style.css';
