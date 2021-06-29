@@ -1,3 +1,4 @@
+import firebase from 'firebase';
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
@@ -6,8 +7,8 @@ import PicksPage from './Components/PicksPage';
 import ResultsPage from './Components/ResultsPage';
 import WeeksDropDown from './Components/WeeksDropDown';
 import LoginForm from './Components/LoginForm'
-import firebase from 'firebase/app';
-import "firebase/auth";
+
+import 'firebase/auth';
 
 import './App.css';
 import 'react-dropdown/style.css';
