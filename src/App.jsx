@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
@@ -14,6 +14,20 @@ import './App.css';
 import 'react-dropdown/style.css';
 import 'react-tabs/style/react-tabs.css';
 
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCr8qsKGM1voq1YT_ooV1FZNR9Lfd0FhQo",
+    authDomain: "quiniela-daa5f.firebaseapp.com",
+    databaseURL: "https://quiniela-daa5f-default-rtdb.firebaseio.com",
+    projectId: "quiniela-daa5f",
+    storageBucket: "quiniela-daa5f.appspot.com",
+    messagingSenderId: "576522196837",
+    appId: "1:576522196837:web:9fd82f5dcb91946884338c",
+    measurementId: "G-9EW9LDF71X"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 class App extends Component {
   state = {
