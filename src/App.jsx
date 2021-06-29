@@ -58,7 +58,7 @@ class App extends Component {
      *  by the picks page and the results page for rendering.
      *  Weeks can be changed by user via the week-dropdown menu.
      */
-    firebase.database().ref('/games/2017/allGames/' + week).once('value')
+    firebase.database().ref('/games/2021/allGames/' + week).once('value')
       .then((snap) => {
         const games = snap.exportVal();
         this.setState({ games });
