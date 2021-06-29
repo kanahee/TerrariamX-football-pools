@@ -182,7 +182,7 @@ class PicksPage extends Component {
   }
 
   submitPicks() {
-    this.setState({errors: []});
+    this.setState({errors: {}});
 
     const dbPath = 'users/' + this.props.currentUser.uid + '/' + this.props.week;
     const picks = this.state.picks;
