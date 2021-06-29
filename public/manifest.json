@@ -1,8 +1,8 @@
 {
-  "short_name": "NFL Pickems",
-  "name": "NFL Confidence Pickems",
+  "short_name": "Quiniela",
+  "name": "Quiniela EuroCopa 2020",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#000"
 }
