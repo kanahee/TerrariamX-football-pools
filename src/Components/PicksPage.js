@@ -143,7 +143,7 @@ class PicksPage extends Component {
   checkForErrors() {
     // Uses the two functions above to check for errors.
     // Any errors returned will be concatenated to existing errors in the state.
-    const errors = this.state.errors.concat(this.checkDuplicatePicks(), this.checkPickRange());
+    const errors = this.state.errors.concat({this.checkDuplicatePicks()}, {this.checkPickRange()});
 
     return errors;
   }
